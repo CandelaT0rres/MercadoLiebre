@@ -1,0 +1,18 @@
+h1{
+    color:blue
+}
+
+#tituloPrincipal {
+    color:white;
+    background-color:violet;
+   
+}
+.otro {
+    color:rgb(15, 13, 13);
+    background-color:rgb(141, 130, 238);
+  
+}
+
+body{
+    background-color:rgb(161, 152, 233)
+}
