@@ -8,21 +8,28 @@ const path = require("path")
 app.use(express.static(path.join(__dirname, "/public")));
 
 
-
-//permite enviar un texto HTML
-
-app.get("/hola",  (req, res)=> {
- res.send ("ahora sí entré")
-  });
-
 //permite enviar un archivo HTML
 app.get("/",  (req, res)=> {
  res.sendFile(path.join(__dirname, "/views/home.html"))
 });
 
 
-//ruta de servidor
-app.listen(3010, function() {    
-    console.log("Servidor corriendo");
+app.get("/formulario",  (req, res)=> {
+  res.sendFile(path.join(__dirname, "/views/formulario.html"))
 });
+
+
+app.get("/login",  (req, res)=> {
+  res.sendFile(path.join(__dirname, "/views/login.html"))
+});
+
+app.listen(process.env.PORT || 3010, function() {
+  console.log("Servidor corriendo en el puerto 3010");
+});
+
+
+//ruta de servidor
+//app.listen(3010, function() {    
+//    console.log("Servidor corriendo");
+//});
   

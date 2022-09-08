@@ -1,0 +1,43 @@
+
+*{
+    box-sizing: border-box;  
+}
+
+
+form{
+    background-color: white;
+    color:#999;
+    padding: 30px;
+    margin:0px auto;
+    width: 300px;
+    border-radius: 3px;
+}
+
+
+input{
+    border:0;
+    outline:0;
+    
+}
+
+.field{
+    border: solid 1px #ccc;
+    padding: 10px;
+    border-radius: 3px;
+    width: 280px;
+}
+
+.field:focus{
+   border-color:yellow;
+}
+
+button{
+    border: solid 1px #ccc;
+    padding: 10px;
+    border-radius: 3px;
+    width: 280px;  
+}
+
+.button:focus{
+    border-color:yellow;
+ }

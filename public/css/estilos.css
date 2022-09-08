@@ -1,18 +1,196 @@
-h1{
-    color:blue
+
+*{
+    max-width: 100%;   
+    box-sizing: border-box;  
+    margin: 0px;
+    padding:0px;
 }
 
-#tituloPrincipal {
-    color:white;
-    background-color:violet;
+
+
+#header{ 
+    font-family: "Roboto",sans-serif;
+    background-color: #eac926;
+    padding:20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+#logo{
+    width: 200px;
+    background-color: #eac926;
+}
+
+
+.frase{
+    font-weight: 400;
+    text-align: center;
+}
+
+
+.main-navbar{
+    list-style:none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Roboto",sans-serif;
+}
+
+
+a{
+    text-decoration:none;
+    color: black;
+    display: inline-block;
+    padding: 5px 0px;
+    font-size: 17px;
+    font-family: "Roboto",sans-serif;
+}
+
+
+
+#banner{
+    border-style: none;
+    max-width:100%;
+    font-family: "Roboto",sans-serif;
+   
+ 
+}
+
+
+body {
+    background-color: darkgrey;
+}
+
+h1 {
+    font-size: 20px; 
+    text-align: center;
+    margin: 10px;
+    font-family: "Roboto",sans-serif;
+}
+
+h2, h4{
+    font-size: 16px;  
+    font-family: "Roboto",sans-serif;
+}
+
+h3 {
+    font-size: 18px;  
+    font-family: "Roboto",sans-serif;
+}
+
+
+footer{
+ color: black;
+ text-align: center;
+ background-color: grey;
+
+  
+} 
+
+  
+.contenedorDeArticulos1, .contenedorDeArticulos2 {
+
+ display: flex;
+ flex-wrap: nowrap;
+ justify-content: space-evenly;
+ margin-bottom:10px ;
+
+}
+
+.artículos { 
+    display: inline-block;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    border: solid 0.1px rgba(155, 155,155, 0.5);
+    background-color: white;
+    box-shadow: 0 5px 20px rgba(121, 19, 134, 0.9);
+    font-size: 100%;  
+    font-family: "Roboto",sans-serif;
    
 }
-.otro {
-    color:rgb(15, 13, 13);
-    background-color:rgb(141, 130, 238);
-  
+
+
+
+
+.descripcion{
+    padding: 10px;
+    background-color: white;
+    box-shadow: 0 5px 20px rgba(121, 19, 134, 0.9);
+    border: solid 1.5px rgba(121, 19, 134, 0.9);
+    margin: 15px;
 }
 
-body{
-    background-color:rgb(161, 152, 233)
+
+.iconoCamion {
+ border: solid 1px #39b54a;
+ padding: 6px;
+ border-radius:50%;
+ color: #39b54a;
 }
+
+ 
+@media only screen and (min-width: 350px) and (max-width: 769px) {
+ .contenedorDeArticulos1,.contenedorDeArticulos2 {
+    display:flex;
+    flex-direction: row-reverse;
+    align-items:center;
+    flex-wrap: wrap;
+    margin:auto;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 10px;
+ }
+
+}
+
+
+
+@media (min-width: 1200px){
+
+    .milDos{
+       display: flex;
+       flex-wrap: nowrap;
+       justify-content: center;
+       align-items: center;
+      
+    }
+
+    #seccionOf {
+        display: none;
+    }
+
+
+   .agrupados {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   }
+
+
+}
+
+.artículos{
+    transition: all 500ms;
+}
+.artículos:hover{
+    transform:scale(1.12);
+}
+
+
+.hamburguer-button{
+    background-color: blue;
+    color:white;
+    display: block;
+    max-width: 100px;
+    padding: 15px 0;
+    border-radius:8px;
+    text-align: center;
+    font-size: 18px;
+    margin: auto;
+
+}
+
+/* CAMBIAR LAS IMAGENES Y FIJARSE QUE SEA RESPONSIVE, TMB ADAPTAR EL FOOTER QUE ESTÁ EN PLAYGROUND*/ 

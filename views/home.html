@@ -2,37 +2,248 @@
 
 <html>
 
-    <head>
-        <meta charset="utf-8">
-        <title>Mercado Liebre</title>
-        <link rel="stylesheet" href="/css/estilos.css"> </link>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <head>
 
-    </head>
+            <meta charset="utf-8">
+            <title id="Título principal">Mercado Liebre</title>
+            <link rel="stylesheet" href="/css/estilos.css"></link>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+            <script src="https://kit.fontawesome.com/cf5b93c0d1.js" crossorigin="anonymous"></script>
 
-    <body>
-        <h1 id="tituloPrincipal">holu</h1> 
-        <h2 class="otro"> hola2</h2>
-        <h2>hola3</h2>
+        </head>
 
-        <br>  <!--- no hace falta cerrarlo, es un salto de línea --->
+        <body>
+
+                                        
+          <header id="header"> <!--- encabezado --->                                     
+                <div><img src="/img/logo-mercado-liebre.svg" id="logo"></img></div> 
+                                                        
+                     <a href="a" class="hamburguer-button"><i class="fas fa-bars"></i></a>   
+                                             
+                    <nav> <label name="barra de búsqueda"></label>
+                                                
+                     
+                        <a href="#"><i class="fas fa-hand-holding-usd frase"></i>Comprar en cuotas sin tarjeta de crédito</a>
+                     <input></input>
+                     <button><i class="fa fa-search"></i></button> 
+
+                        <ul class="main-navbar">
+
+                            <li><a href="#">Ofertas</a></li>
+                            <li><a href="#">Tiendas Oficiales</a></li>
+                            <li><a href="#">Vender</a></li>
+                            <li><a href="#">Ayuda</a></li>
+                            <br> 
+                            <li><a href="/formulario"><i class="far fa-id-card"></i>Creá tu cuenta</a></li>
+                            <li><a href="/login"><i class="fas fa-sign-in-alt"></i>Ingresá</a></li>
+                            <li><a href="#"><i class="fas fa-shopping-basket"></i>Mis Compras</a></li>
+
+                        </ul>
+
+                    </nav>  
+
+                <div><img src="/img/img-home-banner.jpg" id="banner"></img></div> 
+
+            </header>
         
-        <p> contenido de página </p> 
 
-        <label> <!---antes de input ej--->(escribir nombre)</label>
-        <input> escribir algo</input>
-        <label> comentarios </label>
-        <textarea> </textarea>
-        <button>Enviar</button>
 
-        <img src="/img/img-cafetera-moulinex.jpg" alt = "cafetera"></img>
-        <img src="/img/img-home-banner.jpg" alt = "banner"></img>
-        <img src="/img/img-macbook-pro-2019.jpg" alt = "macbook"></img>
-        <img src="/img/img-samsung-galaxy-s10.jpg" alt = "galaxy"></img>
-        <img src="/img/img-tv-samsung-smart.jpg" alt = "smart"></img>
-        <img src="/img/logo-mercado-liebre.svg" alt = "logo"></img>
+            <main id="main"> <!--- pag principal --->           
+
+             <h1 class="titulares">Basado en tú última visita</h1>
+             <div class="milDos"> 
+                <div class=contenedorDeArticulos1>
+
+                  <div class="agrupados">  
+
+                      <!----- articulo 1  ------> 
+
+                        <article class="artículos">
+                       
+                          <img width="200px" height="200px" src="/img/auris.jpg" class="imagenes" alt ="auris"></img>
+
+                            <div class="descripcion">
+                                <i class="fa-solid fa-truck iconoCamion"></i>
+                                <h2 class="descripciones">Auris Bengoo G9000</h2>
+                                <h3 class="precios">$30.000</h3>
+                                <h4 class="descuentos">40% Off</h4>
+                            </div>  
+                
+                        </article>
+
+                      <!----- articulo 2  ------> 
+
+                        <article class="artículos"> 
+
+                            <img width="200px" height="200px" src="/img/img-macbook-pro-2019.jpg" class="imagenes" alt="macbook Pro 2019"></img>
+
+                            <div class="descripcion">
+
+                                <i class="fa-solid fa-truck iconoCamion"></i>
+                                <h2 class="descripciones">Macbook Pro 2019</h2>
+                                <h3 class="precios">$120.000</h3>
+                                <h4 class="descuentos">30% Off</h4> 
+
+                            </div>
+                                                        
+                                                  
+                        </article>
+
+                    </div>
+
+                    <div class="agrupados"> 
+                      <!----- articulo 3  ------> 
+                    
+
+                        <article class="artículos"> 
+
+                            <img  width="200px" height="200px" src="/img/img-samsung-galaxy-s10.jpg" class="imagenes" alt="samsung Galaxy s10"></img>
+
+                            <div class="descripcion"> 
+
+                                <i class="fa-solid fa-truck iconoCamion"></i>
+                                <h2 class="descripciones">Samsung Galaxy s10</h2>
+                                <h3 class="precios">$100.000</h3>
+                                <h4 class="descuentos">20% Off</h4> 
+
+                            </div>
+
+                        </article>
+
+                     <!----- articulo 4  ------> 
+
+                        <article class="artículos"> 
+
+                            <img width="200px" height="200px" src="/img/img-tv-samsung-smart.jpg" class="imagenes" alt="samsung Smart Tv"></img>
+                                                
+                            <div class="descripcion">
+
+                                <i class="fa-solid fa-truck iconoCamion"></i>
+                                <h2 class="descripciones">Samsung Smart Tv</h2>
+                                <h3 class="precios">$160.000</h3>
+                                <h4 class="descuentos">10% Off</h4>
+
+                            </div>
+
+                        </article>  
+
+                    </div> 
+
+                    <div class="agrupados"> 
+                      <!----- articulo 5  ------> 
+
+                        <article class="artículos"> 
+
+                            <img width="200px" height="200px" src="/img/microfono1.jpg" class="imagenes" alt="microfono"></img>
+                                                
+                            <div class="descripcion">
+
+                                <i class="fa-solid fa-truck iconoCamion"></i>
+                                <h2 class="descripciones">Microfono</h2>
+                                <h3 class="precios">$9.000</h3>
+                                <h4 class="descuentos">10% Off</h4>
+
+                            </div>
+
+                        </article>
+
+                     <!----- articulo 6  ------> 
+
+                        <article class="artículos"> 
+
+                            <img width="200px" height="200px" src="/img/cpu.jpg" class="imagenes" alt="cpu"></img>
+                                                
+                            <div class="descripcion">
+
+                                <i class="fa-solid fa-truck iconoCamion"></i>
+                                <h2 class="descripciones">Cpu</h2>
+                                <h3 class="precios">$450.000</h3>
+                                <h4 class="descuentos">10% Off</h4>
+
+                            </div>
+
+                        </article>
+
+                    </div> 
+
+                </div>         
+                               
+                
+                            
+              <h1 class="titulares" id="seccionOf">Sección de Ofertas </h1>
+
+                <div class=contenedorDeArticulos2>
+
+                    <div class="agrupados">
+                     
+                        <!----- articulo 7  ------> 
+                          
+
+                        <article class="artículos"> 
+
+                            <img width="200px" height="200px" src="/img/auris.jpg" class="imagenes" alt ="auris"></img>
+
+                            <div class="descripcion">   
+                
+                                <i class="fa-solid fa-truck iconoCamion"></i>
+                                <h2 class="descripciones">Auris Bengoo G9000</h2>
+                                <h3 class="precios">$30.000</h3>
+                                <h4 class="descuentos">40% Off</h4>
+
+                            </div>
+
+                        </article>
+
+                       <!----- articulo 8  ------> 
+
+                        <article class="artículos"> 
+
+                            <img  width="200px" height="200px" src="/img/img-macbook-pro-2019.jpg" class="imagenes" alt="macbook Pro 2019"></img>
+
+                            <div class="descripcion"> 
+                                <i class="fa-solid fa-truck iconoCamion"></i>
+                                <h2 class="descripciones">Macbook Pro 2019</h2>
+                                <h3 class="precios">$120.000</h3>
+                                <h4 class="descuentos">30% Off</h4> 
+                            </div> 
+
+                        </article>
+
+                    </div>
+
+                </div>       
+
+            </main> 
+
+
+
+         <footer> <!--- pie de página ---> 
+            <div class="containerFooter">  
+                
+                <section class="secciones"> 
+                    <br>      
+                    <i class="fa-solid fa-credit-card"></i>
+                    <h4>Pagá con tarjeta o efectivo</h4>
+                    <p class="párrafos">Con Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en puntos de pago. ¡Y siempre es seguro!</p>
+                    <br>
+                    <i class="fa-solid fa-gift"></i>
+                    <h4>Envío gratis desde $ 2.500</h4>
+                    <p class="párrafos">Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de productos. Es un beneficio de Mercado Puntos.</p>
+                    <br>
+                    <i class="fa-solid fa-shield"></i>
+                    <h4>Seguridad, de principio a fin</h4>
+                    <p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas hacer, porque estás siempre protegid@.</p></p>
+                    
+                    <p><b>Copyright © 1999-2020 MercadoLiebre S.R.L.</b></p>
+
+                </section>
+                
+            </div>  
+             
+        </footer>
+
+
     </body>
-
 
     
 </html>
